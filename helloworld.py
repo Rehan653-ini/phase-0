@@ -1,3 +1,1 @@
-#setting up github
-
-print('Hello, World!')
+print('This is my first git repo!')     
