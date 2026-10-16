@@ -196,17 +196,6 @@ def UserInterface():
 
     root.mainloop()
 
-#Score GUI
-def ScoreInterface():
-    root = tk.Tk()
-    root.title("Logger V1.0 - Score")
-    root.geometry("400x200")
 
-    tk.Label(root, text=f"Possible points: {possible_points}").pack()
-    tk.Label(root, text=f"Points obtained: {points}").pack()
-    tk.Label(root, text=f"Today's score: {score}% ({daycolor} day)").pack()
-    
-
-    root.mainloop()
 
     
